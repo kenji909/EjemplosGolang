@@ -11,3 +11,12 @@ git push origin master // tambien puede ser "git origin main" para subirlo al re
 git pull // descarga la actualizacion del repositorio online
 
 git clone http... // clona un repositorio online 
+
+// Comandos para agregar un repositorio remoto
+
+git branch -M main // crea la rama principal con nombre "main" (es una buena practica)
+
+git remote add origin https://github.com/nombre_repositorio // agregar la direccion del repositorio online
+
+git push origin main // carga los archivos del repositorio local al online
+
